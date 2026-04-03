@@ -240,6 +240,19 @@ h3 { font-size: 1.04rem; }
 }
 
 .timeline-item { position: relative; }
+.timeline-item h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.timeline-date {
+  font-weight: 500;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.title {
+  flex: 1;
+}
 .timeline-item::before {
   content: '';
   position: absolute;
